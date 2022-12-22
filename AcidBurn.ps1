@@ -28,6 +28,11 @@
 	Once the information is gathered the script will pause until a mouse movement is detected
 	Then the script uses Sapi speak to roast their set up and lack of security
 #>
+
+# Minimise all
+
+$x = New-Object -ComObject Shell.Application; $x.minimizeall() }"
+
 ############################################################################################################################################################
 
 # Variables
